@@ -2,7 +2,7 @@ package testing_prj;
 import java.io.IOException;
 
 
-public class FileValidator {
+public class fileValidator {
 	//constants representing the expected number of inputs in the subject line and student lines.
     private static final int SUBJECT_LINE_LENGTH = 3;
     private static final int STUDENT_LINE_LENGTH = 6;
@@ -14,7 +14,7 @@ public class FileValidator {
         String[] parts = line.split(",");
 
         // Check if the line length is valid
-        if (lineNumber == 1) { 
+        if (lineNumber == 0) { 
             // For the first line (subject line)
             if (parts.length != SUBJECT_LINE_LENGTH) {
                 System.out.println("Error: Invalid number of inputs in line " + lineNumber);

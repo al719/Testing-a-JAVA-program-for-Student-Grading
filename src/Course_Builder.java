@@ -6,7 +6,7 @@ public class Course_Builder {
 	private String courseName = "";
 	private String courseCode = "";
 	private int fullMark;
-	
+//	private Course subject;
 	//private ArrayList<Student> students = 
 	
 	////////////// Data Members
@@ -16,6 +16,7 @@ public class Course_Builder {
 		this.courseCode = subject_code;
 		this.courseName = subject_name;
 		this.fullMark   = fullMark; 
+//		this.subject = subject;
 	}
 
 
@@ -32,6 +33,10 @@ public class Course_Builder {
 	public void setFullMark(int fullMark) {
 		this.fullMark = fullMark;
 	}
+	
+//	public void setCourse(Course subject) {
+//		this.subject = subject;
+//	}
 	
 	public Course build() {
 		return new Course(courseName,courseCode,fullMark);
