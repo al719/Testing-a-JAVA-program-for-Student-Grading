@@ -47,7 +47,7 @@ public class DataAnalyzer {
 //		Data_All  = filehandler.GetData();
 		for(int i=0;i<Data_All.size();i++) {
 			String[] Data_Line = Data_All.get(i).split(",");
-			System.out.println(Data_Line.toString());
+//			System.out.println(Data_Line.toString());
 			if(i==0) {
 				if(course_validator.isValid(Data_Line[0],Data_Line[1],Data_Line[2])){
 					course_build = new Course_Builder(Data_Line[0],Data_Line[1],Integer.parseInt(Data_Line[2]));
@@ -106,29 +106,30 @@ public class DataAnalyzer {
 	String Grade_Evaluation(int activities , int oral , int midterm, int finalExam) {
 		// logic for Grade calc.
 		String Grade = "";
-		double avg = (activities + oral + midterm + finalExam)/4.0;
+//		double avg = (activities + oral + midterm + finalExam)/4.0;
+		double total_marks = (activities + oral + midterm + finalExam);
 		
-		  if(avg >= 97 && avg<=100)
+		  if(total_marks >= 97 && total_marks<=100)
 			  Grade = "A+";
-		  else if(avg>=93 && avg<97)
+		  else if(total_marks>=93 && total_marks<97)
 			  Grade = "A";
-	      else if(avg>=89 && avg<93)
+	      else if(total_marks>=89 && total_marks<93)
 	    	  Grade = "A-";
-	      else if(avg>=84 && avg<89)
+	      else if(total_marks>=84 && total_marks<89)
 	    	  Grade = "B+";
-	      else if(avg>=80 && avg<84)
+	      else if(total_marks>=80 && total_marks<84)
 	    	  Grade = "B";
-	      else if(avg>=76 && avg<80)
+	      else if(total_marks>=76 && total_marks<80)
 	    	  Grade = "B-";
-	      else if(avg>=73 && avg<76)
+	      else if(total_marks>=73 && total_marks<76)
 	    	  Grade = "C+";
-	      else if(avg>=70 && avg<73)
+	      else if(total_marks>=70 && total_marks<73)
 	    	  Grade = "C";
-	      else if(avg>=67 && avg<70)
+	      else if(total_marks>=67 && total_marks<70)
 	    	  Grade = "C-";
-	      else if(avg>=64 && avg<67)
+	      else if(total_marks>=64 && total_marks<67)
 	    	  Grade = "D+";
-	      else if(avg>=60 && avg<64)
+	      else if(total_marks>=60 && total_marks<64)
 	    	  Grade = "D";
 	      else
 	    	  Grade = "F";

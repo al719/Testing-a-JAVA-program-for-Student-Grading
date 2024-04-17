@@ -22,12 +22,12 @@ public class outputGenerator {
         try {
             FileWriter writer = new FileWriter(fileName);
 
-            writer.write("Subject Name: " + subject.getCourseName() + " Max Mark: " + subject.getFullMark() + "\n");
-            writer.write("Student name Student number GPA Grade\n");
+            writer.write("Subject Name: " + subject.getCourseName() + "\t\t Max Mark: " + subject.getFullMark() + "\n");
+            writer.write("Student name \t\t\t Student number \t\t\t GPA \t\t\t Grade\n");
 
             for (Student student : subject.extract()) {
-                writer.write(student.getStudentName() + " " + student.getStudentID() + " "
-                        + student.getGPA() + " " + student.getGrade() + "\n");
+                writer.write(student.getStudentName() + " \t\t\t\t " + student.getStudentID() + " \t\t\t\t "
+                        + student.getGPA() + " \t\t\t " + student.getGrade() + "\n");
             }
 
             writer.close();
