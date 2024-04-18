@@ -1,4 +1,4 @@
-package Implementation;
+package testing_prj;
 
 import java.util.regex.*;
 
@@ -43,20 +43,17 @@ public class student_validator {
         return true;
     }
     
-    private static boolean validateStudentName(String name) {
-        // Validate student name: Alphabetic characters and Spaces, not starting with space
-        return name.matches("[a-zA-Z]+(\\s[a-zA-Z]+)*");
-        // mohammed
-        // mohammed moustafa
-        //mohammed moustafa sayed
-        
-    }
+	 private static boolean validateStudentName(String name) {
+		    // Validate student name: Alphabetic characters and Spaces, cannot start with space, can end with space
+		    return name.matches("[a-zA-Z]+(\\s[a-zA-Z]+)*\\s*");
+		}
+
     
-    private static boolean validateStudentNumber(String number) {
-        // Validate student number: Alphanumeric characters of exact length of 8 characters,
-        // starting with numbers and might end with only one alphabetic character
-        return number.matches("\\d{7}[a-zA-Z]?");
-    }
+	 private static boolean validateStudentNumber(String number) {
+		    // Validate student number: 8 characters, first 7 digits (0-9), last can be digit or alphabet
+		    return number.matches("^\\d{7}[0-9a-zA-Z]$");
+		}
+
     
     private static boolean validateMark(String mark, int maxMark) {
         // Validate mark: Integer of a value from 0 up to maxMark
