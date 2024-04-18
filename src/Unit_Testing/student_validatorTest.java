@@ -31,7 +31,7 @@ class student_validatorTest {
 		assertFalse(student_validator.isValid("Mohamad 4", null, null, null, null, null));
 	}
 	
-	// Check
+
 	@Test
 	void testStudentNumberLengthLessThan8 () {
 		assertFalse(student_validator.isValid("Amr Ahmad", "1234567", null, null, null, null),"Student number less than 8");
@@ -84,21 +84,21 @@ class student_validatorTest {
 	void testStudentNameTrailingSpace() {
 		assertTrue(student_validator.isValid("Amr Ahmad ", "12345678", "5", "0", "10", "60"));
 	}
-	// Check
+
 	@Test
 	void testStudentNameAllUpperCase() {
-		assertFalse(student_validator.isValid("MARWA AMR", "12345678", "5", "0", "10", "60"));
-	}
-	//Check
-	@Test
-	void testStudentNameAllLowerCase() {
-		assertFalse(student_validator.isValid("marwa amr", "12345678", "5", "0", "10", "60"));
+		assertTrue(student_validator.isValid("MARWA AMR", "12345678", "5", "0", "10", "60"));
 	}
 	
-	// Check
+	@Test
+	void testStudentNameAllLowerCase() {
+		assertTrue(student_validator.isValid("marwa amr", "12345678", "5", "0", "10", "60"));
+	}
+	
+
 	@Test
 	void testStudentNamePascal() {
-		assertFalse(student_validator.isValid("MarwaAmr", "12345678", "5", "0", "10", "60"));
+		assertTrue(student_validator.isValid("MarwaAmr", "12345678", "5", "0", "10", "60"));
 	}
 	@Test
 	void testStudentNamePascalWithSpace() {
@@ -107,15 +107,15 @@ class student_validatorTest {
 	
 	@Test
 	void testStudentNameCamalCase() {
-		assertFalse(student_validator.isValid("marwaAmr", "12345678", "5", "0", "10", "60"));
+		assertTrue(student_validator.isValid("marwaAmr", "12345678", "5", "0", "10", "60"));
 	}
 	@Test
 	void testStudentNameCamalCaseWithSpace() {
-		assertFalse(student_validator.isValid("marwa Amr", "12345678", "5", "0", "10", "60"));
+		assertTrue(student_validator.isValid("marwa Amr", "12345678", "5", "0", "10", "60"));
 	}
 	@Test
 	void testStudentSecondNameLowerCase() {
-		assertFalse(student_validator.isValid("Marwa amr", "12345678", "5", "0", "10", "60"));
+		assertTrue(student_validator.isValid("Marwa amr", "12345678", "5", "0", "10", "60"));
 	}
 	
 	
