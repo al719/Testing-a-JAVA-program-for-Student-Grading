@@ -33,7 +33,28 @@ public class FileHandler {
 //	public FileHandler getfileHandle() {
 //		return this;
 //	}
-	
+
+
+	public String getFilepath() {
+		return filepath;
+	}
+
+	public ArrayList<String> getData_in() {
+		return Data_in;
+	}
+
+	public void setData_in(ArrayList<String> data_in) {
+		Data_in = data_in;
+	}
+
+	public fileValidator getFile_validator() {
+		return file_validator;
+	}
+
+	public void setFile_validator(fileValidator file_validator) {
+		this.file_validator = file_validator;
+	}
+
 	public ArrayList<String> GetData () throws FileNotFoundException{
 		String temp = "";
 		int line_num = 0;
