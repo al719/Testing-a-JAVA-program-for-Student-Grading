@@ -73,5 +73,9 @@ public class CourseTest {
     public void testNullCourseName() {
         assertThrows(IllegalArgumentException.class, () -> new Course(null, "MATH101", 100));
     }
+    @Test
+    public void testNullCourseCode() {
+        assertThrows(IllegalArgumentException.class, () -> new Course("MATH", null, 100));
+    }
 }
 

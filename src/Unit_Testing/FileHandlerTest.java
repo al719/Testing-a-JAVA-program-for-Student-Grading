@@ -43,6 +43,27 @@ public class FileHandlerTest {
         }
     }
 
+    @Test
+    public void testSetInvalidPath() {
+        assertThrows(FileNotFoundException.class, () -> fileHandler.setPath(invalidFilePath));
+    }
+
+    @Test
+    public void testGetDataFromInvalidFile() {
+        assertThrows(FileNotFoundException.class, () -> new FileHandler(invalidFilePath));
+    }
+    
+    @Test
+    public void testGetDataFromNullPath() {
+        assertThrows(NullPointerException.class, () -> fileHandler.setPath(null));
+        assertThrows(NullPointerException.class, () -> fileHandler.GetData());
+    }
+
+    @Test
+    public void testGetDataFromNonexistentFile() {
+        assertThrows(FileNotFoundException.class, () -> new FileHandler("nonexistent_file.txt"));
+    }
+
 
 
 }
