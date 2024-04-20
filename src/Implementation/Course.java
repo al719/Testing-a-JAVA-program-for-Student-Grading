@@ -22,6 +22,8 @@ public class Course {
 	
 	public Course(String courseName, String courseCode, int fullMark) {
 		super();
+		if (courseName == null || courseCode == null || courseName.isEmpty() || courseCode.isEmpty()) {
+			throw new IllegalArgumentException("Course name or course code cannot be null.");		}
 		this.courseName = courseName;
 		this.courseCode = courseCode;
 		this.fullMark = fullMark;
