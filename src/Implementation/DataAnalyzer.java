@@ -82,7 +82,7 @@ public class DataAnalyzer {
 		}
 	}
 	
-	double GPA_Evaluation(String Grade) {
+	public double GPA_Evaluation(String Grade) {
 		// logic for GPA calc.
 		double GPA=0;
 		if(Grade == "A+" || Grade == "A")
@@ -112,7 +112,7 @@ public class DataAnalyzer {
 		
 	}
 	
-	String Grade_Evaluation(int activities , int oral , int midterm, int finalExam) {
+	public String Grade_Evaluation(int activities , int oral , int midterm, int finalExam) {
 		// logic for Grade calc.
 		String Grade = "";
 //		double avg = (activities + oral + midterm + finalExam)/4.0;
