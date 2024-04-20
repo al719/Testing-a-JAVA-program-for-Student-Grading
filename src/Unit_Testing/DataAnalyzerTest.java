@@ -119,7 +119,7 @@ class DataAnalyzerTest {
 	{
 	    FileHandler filehandle = new FileHandler("..\\test_sample.txt");
 	    DataAnalyzer TestData = new DataAnalyzer(filehandle);
-	    assertEquals("A", TestData.Grade_Evaluation(10,10,20 ,53), "Fail::Grade is not as expected");
+	    assertEquals("A", TestData.Grade_Evaluation(10,10,20 ,54), "Fail::Grade is not as expected");
 	}
 
 	@Test

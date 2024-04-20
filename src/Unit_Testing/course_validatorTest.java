@@ -26,11 +26,11 @@ class course_validatorTest {
 	}
 	@Test
 	void TestNameWithSpecialCaracter() {
-		assertFalse(course_validator.isValid(" Software_Testing", "ABC321s", "100"));
+		assertFalse(course_validator.isValid("Software_Testing", "ABC321s", "100"));
 	}
 	@Test
 	void TestNameWithNumbers() {
-		assertFalse(course_validator.isValid(" Software Testing 1", "ABC321s", "100"));
+		assertFalse(course_validator.isValid("Software Testing 1", "ABC321s", "100"));
 	}
 	
 	//TEST COURSE CODE
@@ -47,67 +47,67 @@ class course_validatorTest {
 	@Test
 	void TestCodeWithFourAlphabiticCharacters()
 	{
-		assertFalse(course_validator.isValid(" Software Testing", "ABCD321", "100"));
+		assertFalse(course_validator.isValid("Software Testing", "ABCD321", "100"));
 	}
 	
 	@Test
 	void TestCodeWithFourNumbers()
 	{
-		assertFalse(course_validator.isValid(" Software Testing", "ABC3210", "100"));
+		assertFalse(course_validator.isValid("Software Testing", "ABC3210", "100"));
 	}
 	
 	@Test
-	void TestCodeWith5characters()
+	void TestCodeWith5charactersOnly()
 	{
-		assertFalse(course_validator.isValid(" Software Testing", "ABC32", "100"));
+		assertFalse(course_validator.isValid("Software Testing", "ABC32", "100"));
 	}
 	
 	@Test
 	void TestCodeWith8characters()
 	{
-		assertFalse(course_validator.isValid(" Software Testing", "ABC321ss", "100"));
+		assertFalse(course_validator.isValid("Software Testing", "ABC321ss", "100"));
 	}
 	
 	@Test
 	void TestCodeWith7charactersNotEndingWiths()
 	{
-		assertFalse(course_validator.isValid(" Software Testing", "ABC3211", "100"));
+		assertFalse(course_validator.isValid("Software Testing", "ABC3211", "100"));
 	}
 	
 	@Test
 	void TestCodeWithSpecialCaracter()
 	{
-		assertFalse(course_validator.isValid(" Software Testing", "ABC_321", "100"));
+		assertFalse(course_validator.isValid("Software Testing", "ABC_321", "100"));
 	}
 	
 	@Test
 	void TestCodeWithcharactersonly()
 	{
-		assertFalse(course_validator.isValid(" Software Testing", "ABCDEF", "100"));
+		assertFalse(course_validator.isValid("Software Testing", "ABCDEF", "100"));
 	}
 	
 	@Test
 	void TestCodeWithnumbersonly()
 	{
-		assertFalse(course_validator.isValid(" Software Testing", "123456", "100"));
+		assertFalse(course_validator.isValid("Software Testing", "123456", "100"));
 	}
 	
 	@Test
 	void TestCodeWithSpecialCharacter()
 	{
-		assertFalse(course_validator.isValid(" Software Testing", "ABC_12", "100"));
+		assertFalse(course_validator.isValid("Software Testing", "ABC_12", "100"));
 	}
 	
 	@Test
 	void TestCodeWithLastCharacterNots()
 	{
-		assertFalse(course_validator.isValid(" Software Testing", "ABC123M", "100"));
+		assertFalse(course_validator.isValid("Software Testing", "ABC123M", "100"));
 	}
 	
 	@Test
 	void TestCodeWithLastCharactersbut6CharactersOnly()
 	{
-		assertFalse(course_validator.isValid(" Software Testing", "ABC12s", "100"));
+		assertFalse(course_validator.isValid("Software Testing", "ABC12s", "100"));
 	}
 	
 	
