@@ -1,0 +1,20 @@
+discrete maths,PHM311,150
+Mina Ashraf Adel Maged,76089390,10,8,17,58
+Sarah Ahmed Samir Khaled,62139709,9,5,12,42
+Ahmed Karim Mohamed Ali,33055552,6,2,10,30
+Maha Yassin Mohamed Zaki,10256771,8,3,15,54
+Aya Ahmed Essam Mahmoud,29424660,5,2,13,46
+Noha Mohamed Ashraf Ibrahim,81573626,8,1,11,55
+Mostafa Mahmoud Elsayed,93367401,9,9,19,51
+Nouran Mohamed Samir,67951526,7,6,18,60
+Youssef Ahmed Youssef,47787469,2,2,7,22
+Sara Mahmoud Saleh Hassan,60590488,4,4,10,33
+Yara Samy Fathy Elshamy,44579844,6,4,16,50
+Omar Mohamed Abdelhamid,81979799,9,4,18,49
+Khaled Mohamed Mohamed,89242350,6,1,16,45
+Hassan Mohamed Adel Salem,74890597,7,7,14,50
+Amr Fathy Ibrahim Hamdy,46706768,8,8,13,50
+Ali Mohamed Ali Fahmy,17762335,3,3,7,22
+Nada Hossam Eldin Elbanna,86531923,5,5,12,40
+Dalia Mohamed Ahmed Ahmed,86211202,3,1,9,32
+Yasmine Ahmed Ahmed Salem,10780463,2,1,6,19

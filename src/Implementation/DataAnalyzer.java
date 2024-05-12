@@ -1,4 +1,4 @@
-package Implementation;
+package testing_prj;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -35,7 +35,7 @@ public class DataAnalyzer {
 		Data_All  = filehandler.GetData();
 	}
 	
-	void AnalyzeData() throws FileNotFoundException {
+	public boolean AnalyzeData() throws FileNotFoundException {
 	// (1) check the validation for student and course if pass execute the following :
 		// (1.1) double student_GPA   = GPA_Evaluation(Data_Line[2],Data_Line[3],Data_Line[4],Data_Line[5]) --> activities , oral , midterm , final
 		// (1.2) string student_grade = Grade_Evaluation();
@@ -58,6 +58,7 @@ public class DataAnalyzer {
 				else 
 				{
 					System.out.println("Error in course constraints");
+					return false;
 				}
 				
 			} 
@@ -76,10 +77,12 @@ public class DataAnalyzer {
 				else 
 				{
 					System.out.println("Error in student constraints");
+					return false;
 				}
 			}
 			
 		}
+		return true;
 	}
 	
 	public double GPA_Evaluation(String Grade) {

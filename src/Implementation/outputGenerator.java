@@ -1,4 +1,4 @@
-package Implementation;
+package testing_prj;
 
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
@@ -8,18 +8,20 @@ public class outputGenerator {
 	
 	DataAnalyzer data_analyzer;
 	Course subject;
-
+	boolean correct_analyze;
     public outputGenerator(FileHandler file) throws FileNotFoundException {
 		super();
 		data_analyzer = new DataAnalyzer(file);
-		data_analyzer.AnalyzeData();
+		correct_analyze = data_analyzer.AnalyzeData();
 		subject = data_analyzer.extractSubject();
 	}
 
 
 	public void generateOutputFile() {
-        String fileName = subject.getCourseName().replaceAll("\\s", "") + ".txt"; // Generate file name from course name
+		if(correct_analyze) {
+		String fileName = subject.getCourseName().replaceAll("\\s", "") + ".txt"; // Generate file name from course name
         try {
+        	
             FileWriter writer = new FileWriter(fileName);
 
             writer.write("Subject Name: " + subject.getCourseName() + "\t\t Max Mark: " + subject.getFullMark() + "\n");
@@ -32,8 +34,10 @@ public class outputGenerator {
 
             writer.close();
             System.out.println("Output file generated successfully for course " + subject.getCourseName() + ": " + fileName);
+        	
         } catch (IOException e) {
             System.out.println("An error occurred while generating the output file for course " + subject.getCourseName() + ": " + e.getMessage());
         }
     }
+	}
 }
