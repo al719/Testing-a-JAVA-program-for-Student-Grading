@@ -1,35 +1,12 @@
 Subject Name: Advanced Algorithms		 Max Mark: 100
 Student name 			 Student number 			 GPA 			 Grade
-Daniel William Olivia David 				 87654328 				 3.0 			 B
-Amanda Grace Peterson 				 29765291 				 4.0 			 A
-Kevin Andrew Scott 				 53428976 				 1.3 			 D+
-Benjamin Robert Baker 				 43125407 				 3.3 			 B+
-Sophia Emma King 				 86512483 				 4.0 			 A+
-Ethan Christopher Wright 				 92450318 				 2.3 			 C+
-Chloe Madison Harris 				 40652184 				 1.0 			 D
-Nathan Samuel Adams 				 89547321 				 0.0 			 F
-Samantha Grace Wilson 				 2765431s 				 4.0 			 A+
-Gabriel Michael Hill 				 35128764 				 0.0 			 F
-Aaliyah Abigail Johnson 				 71324598 				 4.0 			 A
-Isaac Alexander Hernandez 				 92653147 				 3.0 			 B
-Lila Elizabeth Garcia 				 3176549w 				 4.0 			 A
-Avery Victoria Green 				 29315847 				 1.7 			 C-
-Wyatt Anthony Perez 				 58214396 				 3.0 			 B
-Penelope Madison Nguyen 				 48672049 				 1.7 			 C-
-Lucas Christopher Thomas 				 96521430 				 4.0 			 A
-Makayla Natalie Turner 				 73124589 				 4.0 			 A+
-Emma Harper James 				 54216098 				 3.3 			 B+
-Daniel Ryan Rodriguez 				 15328947 				 0.0 			 F
-William Christian White 				 31568427 				 2.7 			 B-
-Sofia Elizabeth Perez 				 6945832p 				 0.0 			 F
-Jackson Mason Wright 				 17654823 				 3.3 			 B+
-Adalyn Hannah Hernandez 				 62158034 				 4.0 			 A
-Elijah Sebastian Martin 				 48965271 				 4.0 			 A
-Olivia Elizabeth Johnson 				 76543892 				 4.0 			 A+
-Emma Sophia Hill 				 43651290 				 3.0 			 B
-Natalie Kayla Adams 				 12345674 				 0.0 			 F
-Alexander Gabriel Taylor 				 98765439 				 3.7 			 A-
-Cameron Joseph Lewis 				 31568745 				 1.3 			 D+
-Aria Sophia Jackson 				 75843261 				 3.7 			 A-
-Madelyn Isabella Hernandez 				 45672134 				 4.0 			 A+
-Jacob William Robinson 				 86315824 				 1.0 			 D
+Daniel William 				 87654328 				 0.0 			 F
+Amanda Grace  				 29765291 				 4.0 			 A+
+Kevin Andrew Scott 				 53428976 				 0.0 			 F
+Omnia Ahmed 				 12345678 				 0.0 			 F
+Alaa Mohamed 				 87654321 				 0.0 			 F
+Hanan Ali 				 87654322 				 0.0 			 F
+Ola Ahmed 				 87654323 				 1.0 			 D
+Just Passing 				 87654324 				 1.0 			 D
+Just Failing 				 87654325 				 0.0 			 F
+Daniel William 				 87654355 				 0.0 			 F

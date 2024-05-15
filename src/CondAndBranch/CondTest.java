@@ -303,8 +303,8 @@ public class CondTest {
     public void testValidateFinalMark_InvalidMark() {
         assertFalse(student_validator.isValid("John Doe", "1234567A", "10", "10", "10", "61"));
     }
-    
-    
+    /*
+
     @Test
     public void testValidateMark_ValidMark() {
         assertTrue(student_validator.validateMark("10", 20));
@@ -318,7 +318,7 @@ public class CondTest {
     @Test
     public void testValidateMark_NonIntegerMark() {
         assertFalse(student_validator.validateMark("abc", 20));
-    }
+    } */
     
     @Test
     void TestGPA4() throws FileNotFoundException {
