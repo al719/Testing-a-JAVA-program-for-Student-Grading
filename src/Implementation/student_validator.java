@@ -44,9 +44,36 @@ public class student_validator {
     }
     
 	 private static boolean validateStudentName(String name) {
-		    // Validate student name: Alphabetic characters and Spaces, cannot start with space, can end with space
-		    return name.matches("[a-zA-Z]+(\\s[a-zA-Z]+)*\\s*");
-		}
+		 if(name.isEmpty())
+		 {
+			 System.out.println("Invalid name: Name shouldn't be EMPTY\n");          
+			 return false;	 
+		 } 
+		 
+		 if (name.startsWith(" "))
+		 {
+			 System.out.println("Invalid name: Name shouldn't Start with a space\n");
+			 return false;	 
+		 }
+		 
+		 int i = 0;
+		 while (i < name.length())
+		 {
+			 char ch = name.charAt(i);   
+			 if (!((Character.isLetter(ch)) || (Character.isSpaceChar(ch))))
+			 { 
+			 
+				 System.out.println("Invalid name: Name must be only alphabetic or space\n"); 
+			 
+				 return false;
+			 } 
+			 
+			 i++; 
+		 } 
+		 
+		 return true; 
+		
+	 }
 
     
 	 private static boolean validateStudentNumber(String number) {
