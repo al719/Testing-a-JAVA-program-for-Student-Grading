@@ -1,3 +1,4 @@
-software testing,ABC123s,100
-ahmed,19000000,10,10,20,60
-ahmedw,19001000,10,10,20,60
+Subject Name: software testing		 Max Mark: 100
+Student name 			 Student number 			 GPA 			 Grade
+ahmed 				 19000000 				 4.0 			 A+
+ahmedw 				 19001000 				 4.0 			 A+

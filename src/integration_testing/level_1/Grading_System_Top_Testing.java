@@ -16,7 +16,7 @@ import java.util.Scanner;
 import org.junit.jupiter.api.Test;
 
 
-import Implementation.main;
+import Implementation.Main;
 
 
 class Grading_System_Top_Testing {
@@ -45,7 +45,7 @@ class Grading_System_Top_Testing {
         //ByteArrayOutputStream baos = new ByteArrayOutputStream();
         //PrintStream printStream = new PrintStream(baos);
         //System.setOut(printStream);
-		main.main(null);
+		Main.main(null);
 		File myfile = new File("AdvancedAlgorithms.txt");
 		///////////////////////////////////////////////////////////////////////////////////
 		/////////////////// check output file is correctly generated    ///////////////////
@@ -103,7 +103,7 @@ class Grading_System_Top_Testing {
         //ByteArrayOutputStream baos = new ByteArrayOutputStream();
         //PrintStream printStream = new PrintStream(baos);
         //System.setOut(printStream);
-		main.main(null);
+		Main.main(null);
 		File myfile = new File("DataStructure.txt");
 		///////////////////////////////////////////////////////////////////////////////////
 		/////////////////// check output file is correctly generated    ///////////////////
@@ -154,7 +154,7 @@ class Grading_System_Top_Testing {
         System.setIn(bais);
         
        
-		main.main(null);
+		Main.main(null);
 		File myfile = new File("computer_netw!rking.txt");
 		///////////////////////////////////////////////////////////////////////////////////
 		/////////////////// check output file is correctly not generated    ///////////////////
@@ -173,7 +173,7 @@ class Grading_System_Top_Testing {
         System.setIn(bais);
         
        
-		main.main(null);
+		Main.main(null);
 		File myfile = new File("computer_netw!rking.txt");
 		///////////////////////////////////////////////////////////////////////////////////
 		/////////////////// check output file is correctly not generated    ///////////////////
@@ -191,7 +191,7 @@ class Grading_System_Top_Testing {
         System.setIn(bais);
         
        
-		main.main(null);
+		Main.main(null);
 		File myfile = new File("computer_netw!rking.txt");
 		///////////////////////////////////////////////////////////////////////////////////
 		/////////////////// check output file is correctly not generated    ///////////////////
@@ -209,7 +209,7 @@ class Grading_System_Top_Testing {
         System.setIn(bais);
         
        
-		main.main(null);
+		Main.main(null);
 		File myfile = new File("computer_netw!rking.txt");
 		///////////////////////////////////////////////////////////////////////////////////
 		/////////////////// check output file is correctly not generated    ///////////////////
@@ -227,7 +227,7 @@ class Grading_System_Top_Testing {
         System.setIn(bais);
         
        
-		main.main(null);
+		Main.main(null);
 		File myfile = new File("computer_netw!rking.txt");
 		///////////////////////////////////////////////////////////////////////////////////
 		/////////////////// check output file is correctly not generated    ///////////////////
@@ -245,7 +245,7 @@ class Grading_System_Top_Testing {
         System.setIn(bais);
         
        
-		main.main(null);
+		Main.main(null);
 		File myfile = new File("computer_netw!rking.txt");
 		///////////////////////////////////////////////////////////////////////////////////
 		/////////////////// check output file is correctly not generated    ///////////////////
@@ -263,7 +263,7 @@ class Grading_System_Top_Testing {
         System.setIn(bais);
         
        
-		main.main(null);
+		Main.main(null);
 		File myfile = new File("computer_netw!rking.txt");
 		///////////////////////////////////////////////////////////////////////////////////
 		/////////////////// check output file is correctly not generated    ///////////////////
@@ -281,7 +281,7 @@ class Grading_System_Top_Testing {
         System.setIn(bais);
         
        
-		main.main(null);
+		Main.main(null);
 		File myfile = new File("computer_netw!rking.txt");
 		///////////////////////////////////////////////////////////////////////////////////
 		/////////////////// check output file is correctly not generated    ///////////////////
@@ -299,7 +299,7 @@ class Grading_System_Top_Testing {
         System.setIn(bais);
         
        
-		main.main(null);
+		Main.main(null);
 		File myfile = new File("computer_netw!rking.txt");
 		///////////////////////////////////////////////////////////////////////////////////
 		/////////////////// check output file is correctly not generated    ///////////////////
@@ -317,7 +317,7 @@ class Grading_System_Top_Testing {
         System.setIn(bais);
         
        
-		main.main(null);
+		Main.main(null);
 		File myfile = new File("computer_netw!rking.txt");
 		///////////////////////////////////////////////////////////////////////////////////
 		/////////////////// check output file is correctly not generated    ///////////////////
@@ -335,7 +335,7 @@ class Grading_System_Top_Testing {
         System.setIn(bais);
         
        
-		main.main(null);
+		Main.main(null);
 		File myfile = new File("computer_netw!rking.txt");
 		///////////////////////////////////////////////////////////////////////////////////
 		/////////////////// check output file is correctly not generated    ///////////////////
@@ -353,7 +353,7 @@ class Grading_System_Top_Testing {
         System.setIn(bais);
         
        
-		main.main(null);
+		Main.main(null);
 		File myfile = new File("computer_netw!rking.txt");
 		///////////////////////////////////////////////////////////////////////////////////
 		/////////////////// check output file is correctly not generated    ///////////////////
@@ -371,7 +371,7 @@ class Grading_System_Top_Testing {
         System.setIn(bais);
         
        
-		main.main(null);
+		Main.main(null);
 		File myfile = new File("computer_netw!rking.txt");
 		///////////////////////////////////////////////////////////////////////////////////
 		/////////////////// check output file is correctly not generated    ///////////////////
@@ -389,7 +389,7 @@ class Grading_System_Top_Testing {
         System.setIn(bais);
         
        
-		main.main(null);
+		Main.main(null);
 		File myfile = new File("computer_netw!rking.txt");
 		///////////////////////////////////////////////////////////////////////////////////
 		/////////////////// check output file is correctly not generated    ///////////////////
@@ -407,7 +407,7 @@ class Grading_System_Top_Testing {
         System.setIn(bais);
         
        
-		main.main(null);
+		Main.main(null);
 		File myfile = new File("computer_netw!rking.txt");
 		///////////////////////////////////////////////////////////////////////////////////
 		/////////////////// check output file is correctly not generated    ///////////////////
@@ -425,7 +425,7 @@ class Grading_System_Top_Testing {
         System.setIn(bais);
         
        
-		main.main(null);
+		Main.main(null);
 		File myfile = new File("computer_netw!rking.txt");
 		///////////////////////////////////////////////////////////////////////////////////
 		/////////////////// check output file is correctly not generated    ///////////////////
@@ -443,7 +443,7 @@ class Grading_System_Top_Testing {
         System.setIn(bais);
         
        
-		main.main(null);
+		Main.main(null);
 		File myfile = new File("computer_netw!rking.txt");
 		///////////////////////////////////////////////////////////////////////////////////
 		/////////////////// check output file is correctly not generated    ///////////////////
@@ -461,7 +461,7 @@ class Grading_System_Top_Testing {
         System.setIn(bais);
         
        
-		main.main(null);
+		Main.main(null);
 		File myfile = new File("computer_netw!rking.txt");
 		///////////////////////////////////////////////////////////////////////////////////
 		/////////////////// check output file is correctly not generated    ///////////////////

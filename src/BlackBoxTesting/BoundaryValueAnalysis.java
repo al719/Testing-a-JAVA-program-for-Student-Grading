@@ -1,6 +1,6 @@
 package BlackBoxTesting;
 
-import Implementation.main;
+import Implementation.Main;
 import org.junit.Test;
 
 import java.io.ByteArrayInputStream;
@@ -30,7 +30,7 @@ public class BoundaryValueAnalysis {
         System.setIn(bais);
 
         // Execute main method
-        main.main(null);
+        Main.main(null);
 
         // Check if output file is generated
         File myfile = new File("AdvancedAlgorithms.txt");
@@ -73,7 +73,7 @@ public class BoundaryValueAnalysis {
         System.setIn(bais);
 
         // Execute main method
-        main.main(null);
+        Main.main(null);
 
         // Check if output file is generated
         File myfile = new File("AdvancedAlgorithms.txt");

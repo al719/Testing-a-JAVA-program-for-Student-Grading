@@ -3,7 +3,7 @@ package Implementation;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class main {
+public class Main {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		// TODO Auto-generated method stub
