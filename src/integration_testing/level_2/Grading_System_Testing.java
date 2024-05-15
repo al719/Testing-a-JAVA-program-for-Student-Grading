@@ -1,26 +1,17 @@
-package integration_testing;
+package integration_testing.level_2;
+import Implementation.*;
 
 import static org.junit.Assert.*;
-
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
-
 import org.junit.Test;
 
-import testing_prj.Course;
-import testing_prj.DataAnalyzer;
-import testing_prj.FileHandler;
-import testing_prj.Student;
-import testing_prj.course_validator;
-import testing_prj.fileValidator;
-import testing_prj.outputGenerator;
-import testing_prj.student_validator;
+
+
 
 public class Grading_System_Testing {
 	
@@ -49,7 +40,7 @@ public class Grading_System_Testing {
 			analyzer.AnalyzeData();
 			Course result = analyzer.extractSubject(); 
 			@SuppressWarnings("unchecked")
-			
+
 			ArrayList<Student> students =  result.extract();
 			//Iterator<Student> = new Iterator<>;
 			///////////////////////////////////////////////////////////////////////////////////

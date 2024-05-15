@@ -1,0 +1,3 @@
+Subject Name: Advanced Algorithms		 Max Mark: 100
+Student name 			 Student number 			 GPA 			 Grade
+Amanda Grace Peterson 				 29765291 				 4.0 			 A

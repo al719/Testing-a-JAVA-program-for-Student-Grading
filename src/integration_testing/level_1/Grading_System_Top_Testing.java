@@ -1,4 +1,4 @@
-package integration_testing;
+package integration_testing.level_1;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.*;
@@ -16,8 +16,8 @@ import java.util.Scanner;
 import org.junit.jupiter.api.Test;
 
 
+import Implementation.main;
 
-import testing_prj.main;
 
 class Grading_System_Top_Testing {
 
